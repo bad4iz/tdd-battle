@@ -1,0 +1,29 @@
+{
+  "name": "tdd-battle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bad4iz/tdd-battle.git"
+  },
+  "author": "bad4iz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bad4iz/tdd-battle/issues"
+  },
+  "homepage": "https://github.com/bad4iz/tdd-battle#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "jest": "^27.0.6",
+    "prettier": "2.3.2"
+  }
+}
