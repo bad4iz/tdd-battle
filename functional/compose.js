@@ -1,9 +1,2 @@
 export default (...fns) =>
-  (a) => {
-    fns; //?
-    return fns.reduceRight((acc, curr) => {
-      acc; //?
-      curr;
-      return acc(curr(a));
-    });
-  };
+  fns.reduce((acc, curr) => (...args) => acc(curr(...args)));
